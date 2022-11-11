@@ -1,0 +1,8 @@
+#Ignore the logs directory
+node_modules/
+
+#Ignore local database
+prisma/db
+prisma/db-journal
+
+

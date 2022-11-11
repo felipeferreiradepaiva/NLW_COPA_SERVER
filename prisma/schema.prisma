@@ -3,10 +3,7 @@
 
 generator client {
   provider = "prisma-client-js"
-}
-
-generator erd {
-  provider = "prisma-erd-generator"
+  //binaryTargets = "debian-openssl-1.1.x"
 }
 
 datasource db {
